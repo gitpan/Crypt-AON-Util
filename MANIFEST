@@ -1,7 +1,10 @@
 Changes
-Makefile.PL
 MANIFEST
+META.yml # Will be created by "make dist"
+Makefile.PL
 README
-t/Crypt-AoN-Util.t
-lib/Crypt/AoN/Util.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+lib/Crypt/AON/Util.pm
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t

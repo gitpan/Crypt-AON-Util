@@ -1,12 +1,16 @@
-use 5.008008;
+use strict;
+use warnings;
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
+
 WriteMakefile(
-    NAME              => 'Crypt::AoN::Util',
-    VERSION_FROM      => 'lib/Crypt/AoN/Util.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
-    ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'lib/Crypt/AoN/Util.pm', # retrieve abstract from module
-       AUTHOR         => 'Timothy Zander <timothy.zander@alum.rpi.edu>') : ()),
+    NAME                => 'Crypt::AON::Util',
+    AUTHOR              => 'Timothy Zander <timothy.zander@alum.rpi.edu>',
+    VERSION_FROM        => 'lib/Crypt/AON/Util.pm',
+    ABSTRACT_FROM       => 'lib/Crypt/AON/Util.pm',
+    PL_FILES            => {},
+    PREREQ_PM => {
+        'Test::More' => 0,
+    },
+    dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    clean               => { FILES => 'Crypt-AON-Util-*' },
 );
