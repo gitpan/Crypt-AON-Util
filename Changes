@@ -1,5 +1,8 @@
 Revision history for Crypt-AON-Util
 
+0.04	8/15/07 08:25
+		Added requires statements for correct building off CPAN
+
 0.03    8/15/07 01:49
 		Changed to Crypt::AON::Util
 		Cleaned up a bit
