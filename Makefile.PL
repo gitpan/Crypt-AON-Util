@@ -10,6 +10,11 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+		'Carp' => 0,
+		'Crypt::Random' => 0,
+		'MIME::Base64' => 0,
+		'Exporter' => 0,
+
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Crypt-AON-Util-*' },

@@ -13,11 +13,11 @@ Crypt::AON::Util - Util functions for Crypt::AON
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 SYNOPSIS
 
@@ -244,7 +244,7 @@ L<http://search.cpan.org/dist/Crypt-AON-Util>
 
 =head1 ACKNOWLEDGEMENTS
 
-sThanks to Prof. Bulent Yener at RPI for his assistance.
+Thanks to Prof. Bulent Yener at RPI for his assistance.
 
 =head1 COPYRIGHT & LICENSE
 
